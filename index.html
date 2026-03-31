@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./styles/output.css" />
+
+    <title>Há mais de 25 anos em Maricá</title>
+</head>
+<body>
+
+    <!--HEADER-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img
+                src="./assets/logoscom.png"
+                alt="Logo SebastianCom"
+                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+            />
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">SebastianCom</h1>
+
+            <span class="text-white font-medium">Av. Ver. Francisco Sabino da Costa - Maricá - RJ</span>
+           
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Seg/Sex - 8:30 às 17:30 e sáb até 12h</span>
+            </div>
+        </div>    
+    </header>
+    <!--FIM HEADER-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça nossos produtos
+    </h2>
+
+    <!--INICIO MENU-->
+    <div>
+        <main id="menu" class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+            <!--PRODUTO ITEM-->
+            <div class="flex gap-2">
+                <img
+                src="./assets/tecladologitechk120.png"
+                alt="Teclado Logitech K120"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+                />
+                <div>
+                    <p class="font-bold">Teclado Logitech K120</p>
+                    <p class="text-sm">Teclado Logitech k120 entrada USB plug-and-play</p>
+                </div>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$99.99</p>
+                    <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Teclado Logitech K120"
+                        data-price="99.99"
+                        >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+
+
+            </div>
+            <!--FIM PRODUTO ITEM-->
+
+            <!--PRODUTO ITEM2-->
+            <div class="flex gap-2">
+                <img
+                src="./assets/mouselogitechm90.png"
+                alt="Mouse Logitech M90"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+                />
+                <div>
+                    <p class="font-bold">Mouse Logitech M90</p>
+                    <p class="text-sm">Mouse Logitech M90. Confortável. Durável. Essencial</p>
+                </div>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$99.97</p>
+                    <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Mouse Logitech M90"
+                        data-price="99.97"
+                        >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+
+
+            </div>
+            <!--FIM PRODUTO ITEM2-->
+
+            <!--PRODUTO ITEM3-->
+            <div class="flex gap-2">
+                <img
+                src="./assets/tonerevolut105a.png"
+                alt="Toner Evolut 105a"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+                />
+                <div>
+                    <p class="font-bold">Toner Evolut 105a</p>
+                    <p class="text-sm"> HP compatível com chip W1105a M107a M107w M135a M135w</p>
+                </div>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$99.98</p>
+                    <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="Toner Evolut 105a"
+                        data-price="99.98"
+                        >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+
+
+            </div>
+            <!--FIM PRODUTO ITEM3-->
+
+            <!--PRODUTO ITEM4-->
+            <div class="flex gap-2">
+                <img
+                src="./assets/ssdwd480sata.png"
+                alt="SSD WD Green 480GB"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-200"
+                />
+                <div>
+                    <p class="font-bold">SSD WD Green 480GB</p>
+                    <p class="text-sm">Unidade de armazenamento Sata WDS480G3G0A</p>
+                </div>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$99.96</p>
+                    <button 
+                        class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                        data-name="SSD WD Green 480GB"
+                        data-price="99.96"
+                        >
+                        <i class="fa fa-cart-plus text-lg text-white"></i>
+                    </button>
+                </div>
+
+
+            </div>
+            <!--FIM PRODUTO ITEM4-->
+        </main>
+        
+    </div>
+    <!--FIM MENU-->
+
+    <!--MODAL CART-->
+    <div 
+    class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal"
+    >
+
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+
+            <h2 class="text-center font-bold text-2xl mb-2 ">Meu carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+            <p class="font-bold">Endereço de entrega:</p>
+            <input
+                type="text"
+                placeholder="Digite seu endereço completo..."
+                id="address"
+                class="w-full border-2 p-1 rounded my-1"
+            />
+            <p class="text-red-600 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+            </div>
+        </div>
+    </div>
+    <!--FIM MODAL CART-->
+
+    <!--BUTTOM CART FOOTER-->
+    <footer class="w-full bg-red-600 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <button id="cart-btn" class="flex items-center gap-2 text-white font-bold">
+            (<span id="cart-count">0</span>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </button>
+    </footer>
+    <!--FIM BUTTOM CART FOOTER-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
